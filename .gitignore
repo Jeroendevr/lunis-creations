@@ -207,5 +207,4 @@ marimo/_lsp/
 __marimo__/
 
 # Pelican
-/output/
 /template_inspiration/
