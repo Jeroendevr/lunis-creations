@@ -18,8 +18,6 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ("Facebook", "https://www.facebook.com/profile.php?id=61576098285545"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
 
 )
 
