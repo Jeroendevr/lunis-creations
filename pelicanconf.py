@@ -33,3 +33,6 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 THEME = "themes/nicole-portfolio"
+
+# Plugin Section
+IMAGE_PROCESS = {"thumb": ["scale_in 346 300 False"]}

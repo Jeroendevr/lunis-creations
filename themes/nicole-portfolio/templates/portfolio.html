@@ -14,9 +14,26 @@
     <h1 class="entry-title">{{ page.title }}</h1>
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
-    {{ page.content }}
-    <section class="thumbnails">
+    <div class="thumbnails">
+        <!--    {{ page.content }}-->
+        <div>
+            <a href=" {{ SITEURL }}/images/psc-mok.jpeg">
+                <img class="image-process-thumb" src="/images/psc-mok.jpeg" alt="Bedrukte mokken">
+            </a>
+            <a href="{{ SITEURL }}/images/hond-hierwaakik.jpeg">
+                <img class="image-process-thumb" src="/images/hond-hierwaakik.jpeg" alt="Hier waak ik bordje">
+            </a>
+        </div>
+        <a href=" {{SITEURL}} /images/sleutelhanger-chica.jpeg">
+            <img class="image-process-thumb" src="/images/sleutelhanger-chica.jpeg" alt="Sleutelhanger van hond">
+        </a>
+        <a href=" {{SITEURL}} /images/etui.jpeg">
+            <img class="image-process-thumb" src="/images/etui.jpeg" alt="Bedrukte etui met foto">
+        </a>
+        <div>
 
-    </section>
+        </div>
+
+    </div>
 </section>
 {% endblock %}

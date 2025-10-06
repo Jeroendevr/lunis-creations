@@ -22,7 +22,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (lunis-creations)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="uv (lunis-creations)" project-jdk-type="Python SDK" />
   <component name="RuffConfigService">
     <option name="globalRuffExecutablePath" value="$USER_HOME$/.local/share/uv/tools/ruff/bin/ruff" />
     <option name="useRuffServer" value="true" />
